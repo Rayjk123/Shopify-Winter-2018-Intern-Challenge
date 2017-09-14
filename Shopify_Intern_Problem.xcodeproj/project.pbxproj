@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DE9AC2511F68DD61002F00BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2501F68DD61002F00BA /* AppDelegate.swift */; };
-		DE9AC2531F68DD61002F00BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2521F68DD61002F00BA /* ViewController.swift */; };
+		DE9AC2531F68DD61002F00BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2521F68DD61002F00BA /* HomeViewController.swift */; };
 		DE9AC2561F68DD61002F00BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9AC2541F68DD61002F00BA /* Main.storyboard */; };
 		DE9AC2581F68DD62002F00BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9AC2571F68DD62002F00BA /* Assets.xcassets */; };
 		DE9AC25B1F68DD62002F00BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9AC2591F68DD62002F00BA /* LaunchScreen.storyboard */; };
+		DE9AC2641F691204002F00BA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2631F691204002F00BA /* UIColorExtension.swift */; };
+		DE9AC2661F691CE0002F00BA /* NapoleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2651F691CE0002F00BA /* NapoleanViewController.swift */; };
+		DE9AC2681F698A85002F00BA /* BronzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AC2671F698A85002F00BA /* BronzeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE9AC24D1F68DD61002F00BA /* Shopify_Intern_Problem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopify_Intern_Problem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9AC2501F68DD61002F00BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE9AC2521F68DD61002F00BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE9AC2521F68DD61002F00BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE9AC2551F68DD61002F00BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9AC2571F68DD62002F00BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9AC25A1F68DD62002F00BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9AC25C1F68DD62002F00BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9AC2631F691204002F00BA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DE9AC2651F691CE0002F00BA /* NapoleanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NapoleanViewController.swift; sourceTree = "<group>"; };
+		DE9AC2671F698A85002F00BA /* BronzeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BronzeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		DE9AC24F1F68DD61002F00BA /* Shopify_Intern_Problem */ = {
 			isa = PBXGroup;
 			children = (
-				DE9AC2501F68DD61002F00BA /* AppDelegate.swift */,
-				DE9AC2521F68DD61002F00BA /* ViewController.swift */,
+				DE9AC2521F68DD61002F00BA /* HomeViewController.swift */,
+				DE9AC2651F691CE0002F00BA /* NapoleanViewController.swift */,
+				DE9AC2671F698A85002F00BA /* BronzeViewController.swift */,
+				DE9AC2621F6911E5002F00BA /* Resources */,
 				DE9AC2541F68DD61002F00BA /* Main.storyboard */,
 				DE9AC2571F68DD62002F00BA /* Assets.xcassets */,
 				DE9AC2591F68DD62002F00BA /* LaunchScreen.storyboard */,
 				DE9AC25C1F68DD62002F00BA /* Info.plist */,
 			);
 			path = Shopify_Intern_Problem;
+			sourceTree = "<group>";
+		};
+		DE9AC2621F6911E5002F00BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE9AC2501F68DD61002F00BA /* AppDelegate.swift */,
+				DE9AC2631F691204002F00BA /* UIColorExtension.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9AC2531F68DD61002F00BA /* ViewController.swift in Sources */,
+				DE9AC2661F691CE0002F00BA /* NapoleanViewController.swift in Sources */,
+				DE9AC2531F68DD61002F00BA /* HomeViewController.swift in Sources */,
 				DE9AC2511F68DD61002F00BA /* AppDelegate.swift in Sources */,
+				DE9AC2681F698A85002F00BA /* BronzeViewController.swift in Sources */,
+				DE9AC2641F691204002F00BA /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
