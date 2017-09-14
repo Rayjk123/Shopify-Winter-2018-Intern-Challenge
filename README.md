@@ -13,7 +13,8 @@ You can access your orders with this link:
 https://shopicruit.myshopify.com/admin/orders.json?page=1&access_token=c32313df0d0ef512ca64d5b336a0d7c6
 
 ## Installing
-'git clone' the file and open the *.xcodeproj file
+`git clone` the file and open the *.xcodeproj file
 
 ## Running
 Run it on any simulator but I personally ran it on iPhone 6s.
+Click Napoleon to see the Napoleon result or click the Awesome Bag button to see its results based on the inputted JSON from the HTML.
